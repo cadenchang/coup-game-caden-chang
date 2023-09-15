@@ -1,0 +1,20 @@
+Roles:
+Ambassador: Out of cards in the court and your own, choose to keep 2
+
+Assassin: Pay 3 coins to the Treasury and launch an assassination against another player. If successful that player immediately loses a card.
+
+Captian: Take 2 coins from another player. If they only have one coin, take only one. (Can be blocked by the Ambassador or the Captain)
+
+Contessa: Can block assassination
+
+Duke: Take 3 coins from the Treasury. Can block foreign aid
+
+All roles can claim foreign aid
+
+
+Class Player: player.h
+int coins;
+Role[] hand;
+
+Class: Role
+
