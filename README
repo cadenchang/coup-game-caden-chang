@@ -18,3 +18,6 @@ Role[] hand;
 
 Class: Role
 
+compile with: 
+g++ -o coup coup.cpp
+./coup.cpp
