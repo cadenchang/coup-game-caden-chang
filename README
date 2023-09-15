@@ -14,10 +14,11 @@ All roles can claim foreign aid
 
 Class Player: player.h
 int coins;
-Role[] hand;
+Card[] hand;
 
-Class: Role
+Class: Card
+extends 
 
 compile with: 
 g++ -o coup coup.cpp
-./coup.cpp
+./coup
